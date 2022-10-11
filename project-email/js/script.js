@@ -8,10 +8,9 @@ let found = false;
 
 for(let i = 0 ; i < listEmail.length ; i++){
 
-if(listEmail[i] === myemail){
-    found = true;
-}
-
+    if(listEmail[i] === myemail){
+          found = true;
+       }       
 }
 
 if(found == true){
